@@ -15,6 +15,6 @@ Play against a **high-speed, advanced** computer AI in Othello, a modern spinoff
 5. Play!
 
 # Interesting Facts About the Computer AI
-* The computer originally implemented the **minimax search algorithm**, but after several iterations, it now implements **alpha-beta pruning**
+* The computer originally implemented the **Minimax search algorithm**, but after several iterations, it now implements **Alpha-Beta Pruning**
 * It takes advantage of *heuristics* - it uses a **weighted board** to aid in its decision making, with each spot on the board being weighed from -4 to 4, with the corners being weighed at an astonishing 20 due to their great impact on the game outcome. **Play around with this board to see if you can improve the algorithm!**
 * The computer goes **5 layers deep** in its algorithm - thinking **5 steps ahead** - to compute the best possible position to lay a tile! If you want to challenge yourself even more, **change the "ply" variable to a higher value in lines 306 and 337!**
